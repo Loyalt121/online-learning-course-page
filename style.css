@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero-grid{ 
+    display:grid; 
+    grid-template-columns: 1.1fr 0.9fr; 
+    gap:44px; 
+    align-items:center; 
+}
+
+
+
+    .hero-grid h1{ 
+        color: blue;
+        font-size: clamp(2.1rem, 4vw, 3rem); 
+        line-height:1.15; 
+        /* color:var(--blue-deep);  */
+        margin-bottom:18px; 
+    }
+
+
+    .hero-grid p{ 
+        font-size:1.08rem; 
+        color:var(--ink-soft); 
+        line-height:1.6; 
+        max-width:48ch; 
+    }
+
+
+
+     .hero img{ 
+        width:100%; 
+        height:300px; 
+        bject-fit:cover; 
+        border-radius:10px; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .section-title{ 
+        font-size:28px; 
+        margin-bottom:8px; 
+        color:var(--blue-deep); 
+        color: blue;
+        margin-top: 30px;
+    }
+
+
+
+
+    .section-sub{ 
+        color:rgb(75, 73, 73);
+         margin:0 0 32px; 
+        }
+
+
+    .about-course p{ 
+            font-size:18px; 
+            line-height:1.7; 
+            max-width:70ch; 
+            font-weight: 400;
+            /* color:var(--ink);  */
+            
+    }
+
+
+
+
+
+
+
+  /* What you'll learn */
+    /*.topics{ 
+        display:grid; 
+        grid-template-columns: repeat(3,1fr); 
+        gap:24px; 
+    }
+
+
+    .topic-card{
+    background: var(--panel); 
+    border:1px solid var(--line); 
+    border-radius:10px;
+    padding: 26px 24px; 
+    box-shadow: 0 4px 14px rgba(27,31,35,0.05);
+  }
+
+
+
+.topic-num{ 
+    font-size:0.82rem; 
+    color:var(--mint); 
+    font-weight:600; 
+    margin-bottom:10px; 
+}
+
+
+.topic-card h3{ 
+    font-size:1.15rem; 
+    margin-bottom:10px; 
+}
+
+
+
+.topic-card p{ 
+    font-size:0.92rem; 
+    color:var(--ink-soft); 
+    line-height:1.6; 
+    margin:0; 
+}
+ */
+
+
+
+ .main-container{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+ }
+
+ .container{
+    width: 350px;
+    height: auto;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #d6d5d5;
+    border:1px solid #ccc;
+    border-shadow: 0 2px 15px rgba(219, 13, 13, 0.1);
+     
+}
+
+
+ .topic-num{ 
+    padding-top: 30px;
+    padding-left: 20px;
+    color: green;
+    font-weight: 800;
+    font-size: 20px;
+ }
+
+
+ .container h3{ 
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+ }
+
+
+ .container p{ 
+    color: #3a3939;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    max-width: 350px;
+    margin-bottom: 20px;
+ }
+
+
+
+
+
+
+
+
+ .about-instructor{ 
+    background-color: rgb(49, 49, 133);
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+ }
+
+
+ .section-title1{ 
+    font-size:28px; 
+    margin-bottom:8px; 
+    color: white;
+    margin-top: 30px;
+    padding-top: 90px;
+    font-weight: 600;
+    font-size: 30px;
+ }
+
+
+ .about-instructor img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+ }
+
+
+ 
+
+
+    
+
+
